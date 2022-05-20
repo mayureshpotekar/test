@@ -1,0 +1,231 @@
+bash: export: `HADOOP_OPTS-Djava.library.path=/home/hdoop/hadoop-3.3.1/lib/nativ': not a valid identifier
+synerzip@ULTP535:~/Desktop/Ubuntu_session$ ./sample.sh
+bash: ./sample.sh: Permission denied
+synerzip@ULTP535:~/Desktop/Ubuntu_session$ chmod 777 sample.sh
+synerzip@ULTP535:~/Desktop/Ubuntu_session$ ./sample.sh
+Created 50 files
+synerzip@ULTP535:~/Desktop/Ubuntu_session$ ls |wc-|
+> ^C
+synerzip@ULTP535:~/Desktop/Ubuntu_session$ ls | wc-l
+wc-l: command not found
+synerzip@ULTP535:~/Desktop/Ubuntu_session$ ls | wc -l
+2
+synerzip@ULTP535:~/Desktop/Ubuntu_session$ cd sessionFiles
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ ls |wc -l
+50
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ ls -lh
+total 609M
+-rw-rw-r-- 1 synerzip synerzip 4.8M May 18 15:54 file-10.txt
+-rw-rw-r-- 1 synerzip synerzip 5.3M May 18 15:54 file-11.txt
+-rw-rw-r-- 1 synerzip synerzip 5.8M May 18 15:54 file-12.txt
+-rw-rw-r-- 1 synerzip synerzip 6.2M May 18 15:54 file-13.txt
+-rw-rw-r-- 1 synerzip synerzip 6.7M May 18 15:54 file-14.txt
+-rw-rw-r-- 1 synerzip synerzip 7.2M May 18 15:54 file-15.txt
+-rw-rw-r-- 1 synerzip synerzip 7.7M May 18 15:54 file-16.txt
+-rw-rw-r-- 1 synerzip synerzip 8.2M May 18 15:54 file-17.txt
+-rw-rw-r-- 1 synerzip synerzip 8.6M May 18 15:54 file-18.txt
+-rw-rw-r-- 1 synerzip synerzip 9.1M May 18 15:54 file-19.txt
+-rw-rw-r-- 1 synerzip synerzip 489K May 18 15:54 file-1.txt
+-rw-rw-r-- 1 synerzip synerzip 9.6M May 18 15:54 file-20.txt
+-rw-rw-r-- 1 synerzip synerzip  11M May 18 15:54 file-21.txt
+-rw-rw-r-- 1 synerzip synerzip  11M May 18 15:54 file-22.txt
+-rw-rw-r-- 1 synerzip synerzip  11M May 18 15:54 file-23.txt
+-rw-rw-r-- 1 synerzip synerzip  12M May 18 15:54 file-24.txt
+-rw-rw-r-- 1 synerzip synerzip  12M May 18 15:54 file-25.txt
+-rw-rw-r-- 1 synerzip synerzip  13M May 18 15:54 file-26.txt
+-rw-rw-r-- 1 synerzip synerzip  13M May 18 15:54 file-27.txt
+-rw-rw-r-- 1 synerzip synerzip  14M May 18 15:54 file-28.txt
+-rw-rw-r-- 1 synerzip synerzip  14M May 18 15:54 file-29.txt
+-rw-rw-r-- 1 synerzip synerzip 977K May 18 15:54 file-2.txt
+-rw-rw-r-- 1 synerzip synerzip  15M May 18 15:54 file-30.txt
+-rw-rw-r-- 1 synerzip synerzip  15M May 18 15:54 file-31.txt
+-rw-rw-r-- 1 synerzip synerzip  16M May 18 15:54 file-32.txt
+-rw-rw-r-- 1 synerzip synerzip  16M May 18 15:54 file-33.txt
+-rw-rw-r-- 1 synerzip synerzip  17M May 18 15:54 file-34.txt
+-rw-rw-r-- 1 synerzip synerzip  17M May 18 15:54 file-35.txt
+-rw-rw-r-- 1 synerzip synerzip  18M May 18 15:54 file-36.txt
+-rw-rw-r-- 1 synerzip synerzip  18M May 18 15:54 file-37.txt
+-rw-rw-r-- 1 synerzip synerzip  19M May 18 15:54 file-38.txt
+-rw-rw-r-- 1 synerzip synerzip  19M May 18 15:54 file-39.txt
+-rw-rw-r-- 1 synerzip synerzip 1.5M May 18 15:54 file-3.txt
+-rw-rw-r-- 1 synerzip synerzip  20M May 18 15:54 file-40.txt
+-rw-rw-r-- 1 synerzip synerzip  20M May 18 15:54 file-41.txt
+-rw-rw-r-- 1 synerzip synerzip  21M May 18 15:54 file-42.txt
+-rw-rw-r-- 1 synerzip synerzip  21M May 18 15:54 file-43.txt
+-rw-rw-r-- 1 synerzip synerzip  21M May 18 15:54 file-44.txt
+-rw-rw-r-- 1 synerzip synerzip  22M May 18 15:54 file-45.txt
+-rw-rw-r-- 1 synerzip synerzip  22M May 18 15:54 file-46.txt
+-rw-rw-r-- 1 synerzip synerzip  23M May 18 15:54 file-47.txt
+-rw-rw-r-- 1 synerzip synerzip  23M May 18 15:54 file-48.txt
+-rw-rw-r-- 1 synerzip synerzip  24M May 18 15:54 file-49.txt
+-rw-rw-r-- 1 synerzip synerzip 2.0M May 18 15:54 file-4.txt
+-rw-rw-r-- 1 synerzip synerzip  24M May 18 15:54 file-50.txt
+-rw-rw-r-- 1 synerzip synerzip 2.4M May 18 15:54 file-5.txt
+-rw-rw-r-- 1 synerzip synerzip 2.9M May 18 15:54 file-6.txt
+-rw-rw-r-- 1 synerzip synerzip 3.4M May 18 15:54 file-7.txt
+-rw-rw-r-- 1 synerzip synerzip 3.9M May 18 15:54 file-8.txt
+-rw-rw-r-- 1 synerzip synerzip 4.3M May 18 15:54 file-9.txt
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ man -la
+What manual page do you want?
+For example, try 'man man'.
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ ll |wc -l
+53
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ find . -iname '*4*'
+./file-40.txt
+./file-34.txt
+./file-4.txt
+./file-47.txt
+./file-48.txt
+./file-24.txt
+./file-45.txt
+./file-49.txt
+./file-42.txt
+./file-14.txt
+./file-43.txt
+./file-41.txt
+./file-44.txt
+./file-46.txt
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ find . -iname '*4*' | wc-l
+wc-l: command not found
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ find . -iname '*4*' |wc-l
+wc-l: command not found
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ find . -iname '*4*' | wc-l
+wc-l: command not found
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ find . -iname '*4*' |wc -l
+14
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ find . -iname '*file*'  ./file-2.txt
+./file-36.txt
+./file-39.txt
+./file-9.txt
+./file-50.txt
+./file-6.txt
+./file-10.txt
+./file-8.txt
+./file-25.txt
+./file-16.txt
+./file-40.txt
+./file-38.txt
+./file-34.txt
+./file-4.txt
+./file-13.txt
+./file-47.txt
+./file-7.txt
+./file-19.txt
+./file-48.txt
+./file-24.txt
+./file-45.txt
+./file-17.txt
+./file-20.txt
+./file-49.txt
+./file-26.txt
+./file-35.txt
+./file-1.txt
+./file-42.txt
+./file-28.txt
+./file-32.txt
+./file-29.txt
+./file-14.txt
+./file-33.txt
+./file-23.txt
+./file-15.txt
+./file-43.txt
+./file-27.txt
+./file-41.txt
+./file-12.txt
+./file-22.txt
+./file-44.txt
+./file-3.txt
+./file-21.txt
+./file-11.txt
+./file-46.txt
+./file-37.txt
+./file-18.txt
+./file-5.txt
+./file-31.txt
+./file-30.txt
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ find . -iname '*file*' | wc -l 
+50
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ find . -iname '*file*' | wc -c 
+691
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ env
+SHELL=/bin/bash
+SESSION_MANAGER=local/ULTP535:@/tmp/.ICE-unix/1816,unix/ULTP535:/tmp/.ICE-unix/1816
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XDG_MENU_PREFIX=gnome-
+YARN_HOME=/home/hdoop/hadoop-3.3.1
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LANGUAGE=en_IN:en
+GNOME_SHELL_SESSION_MODE=ubuntu
+SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
+HADOOP_INSTALL=/home/hdoop/hadoop-3.3.1
+XMODIFIERS=@im=ibus
+DESKTOP_SESSION=ubuntu
+SSH_AGENT_PID=1777
+GTK_MODULES=gail:atk-bridge
+DBUS_STARTER_BUS_TYPE=session
+PWD=/home/synerzip/Desktop/Ubuntu_session/sessionFiles
+LOGNAME=synerzip
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_TYPE=x11
+GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1
+XAUTHORITY=/run/user/1001/gdm/Xauthority
+WINDOWPATH=2
+HOME=/home/synerzip
+USERNAME=synerzip
+IM_CONFIG_PHASE=1
+LANG=en_IN
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+HADOOP_MAPRED_HOME=/home/hdoop/hadoop-3.3.1
+VTE_VERSION=6003
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/2092f9d5_ef67_4cfc_8460_ed7920c97aaf
+INVOCATION_ID=7b388b64bf07462e8ff8598abcc04452
+MANAGERPID=1597
+HADOOP_COMMON_HOME=/home/hdoop/hadoop-3.3.1
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+HADOOP_HOME=/home/hdoop/hadoop-3.3.1
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=synerzip
+HADOOP_HDFS_HOME=/home/hdoop/hadoop-3.3.1
+GNOME_TERMINAL_SERVICE=:1.173
+DISPLAY=:0
+SHLVL=1
+QT_IM_MODULE=ibus
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=33b0bed17fb144016cdc394062848797
+XDG_RUNTIME_DIR=/run/user/1001
+HADOOP_COMMON_LIB_NATIVE_DIR=/home/hdoop/hadoop-3.3.1/lib/native
+JOURNAL_STREAM=8:47571
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hdoop/hadoop-3.3.1/sbin:/home/hdoop/hadoop-3.3.1/bin
+GDMSESSION=ubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=33b0bed17fb144016cdc394062848797
+_=/usr/bin/env
+OLDPWD=/home/synerzip/Desktop/Ubuntu_session
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ env | grep HOME
+YARN_HOME=/home/hdoop/hadoop-3.3.1
+HOME=/home/synerzip
+HADOOP_MAPRED_HOME=/home/hdoop/hadoop-3.3.1
+HADOOP_COMMON_HOME=/home/hdoop/hadoop-3.3.1
+HADOOP_HOME=/home/hdoop/hadoop-3.3.1
+HADOOP_HDFS_HOME=/home/hdoop/hadoop-3.3.1
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ env | grep 'HOME'
+YARN_HOME=/home/hdoop/hadoop-3.3.1
+HOME=/home/synerzip
+HADOOP_MAPRED_HOME=/home/hdoop/hadoop-3.3.1
+HADOOP_COMMON_HOME=/home/hdoop/hadoop-3.3.1
+HADOOP_HOME=/home/hdoop/hadoop-3.3.1
+HADOOP_HDFS_HOME=/home/hdoop/hadoop-3.3.1
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ env | grep 'HOME' |wc -l
+6
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ env | grep 'HOME' |wc -c
+222
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ ^C
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ ^C
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ ^C
+synerzip@ULTP535:~/Desktop/Ubuntu_session/sessionFiles$ 
+
+saved
